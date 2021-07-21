@@ -3,7 +3,7 @@ import lxml.html as html
 
 HOME_URL = 'https://www.larepublica.co/'
 
-XPATH_LINK_TO_ARTICLE = '//h2[@data-h = 13 or @data-h = 33]/a/@href'
+XPATH_LINK_TO_ARTICLE = '//a[@class = "empresasSect" or @class = "alta-gerenciaSect" or @class = "economiaSect" or @class = "finansasSect" or @class = "empresasSect" or @class = "actualidadSect" or @class = "globoeconomiaSect" or @class = "editorial-opinionSect" or @class = "ocioSect" or @defaultSect]/@href'
 XPATH_TITLE = '//div[@class = "mb-auto" or @class = "col order-2"]/h2/span/text()'
 XPATH_SUMMARY = '//div[@class= "lead"]/p/text()'
 XPATH_BODY = '//div[@class = "html-content"]/p//text()'
