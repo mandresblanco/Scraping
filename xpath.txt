@@ -1,0 +1,4 @@
+Links = '//h2[@data-h = 13 or @data-h = 33]/a/@href'
+Titulo = '//div[@class = "mb-auto" or @class = "col order-2"]/h2/span/text()'
+Resumen = '//div[@class= "lead"]/p/text()'
+Contenido = '//div[@class = "html-content"]/p//text()'
